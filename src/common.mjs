@@ -1,9 +1,5 @@
-import {builtinModules} from 'node:module';
-
 const common = {
   plugins: ['eslint', 'typescript', 'unicorn', 'oxc', 'import', 'react'],
-
-  jsPlugins: ['eslint-plugin-simple-import-sort'],
 
   rules: {
     // Best practices
@@ -59,22 +55,6 @@ const common = {
     'typescript/no-unused-expressions': ['error'],
     'typescript/no-useless-constructor': ['error'],
     'typescript/array-type': ['error', {default: 'array-simple'}],
-
-    // Sort imports
-    'simple-import-sort/exports': 'error',
-    'simple-import-sort/imports': [
-      'error',
-      {
-        groups: [
-          ['^\\u0000'],
-          ['^react', '^@?\\w'],
-          [`^(${builtinModules.join('|')})(/|$)`],
-          ['^(src|app)(/.*|$)'],
-          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
-          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
-        ],
-      },
-    ],
   },
 };
 
