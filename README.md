@@ -1,4 +1,4 @@
-## Evan Purkhiser's Personal JS code styles
+## Evan Purkhiser's Personal Oxc config
 
 [![publish](https://github.com/evanpurkhiser/oxc-config/workflows/publish/badge.svg)](https://github.com/evanpurkhiser/oxc-config/actions?query=workflow%3Apublish)
 [![NPM](https://img.shields.io/npm/v/@evanpurkhiser/oxc-config)](https://www.npmjs.com/package/@evanpurkhiser/oxc-config)
