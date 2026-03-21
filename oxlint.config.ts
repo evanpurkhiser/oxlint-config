@@ -1,6 +1,6 @@
 import {defineConfig} from 'oxlint';
 
-import {common} from './src/index.mjs';
+import {common} from './src/oxlint.mjs';
 
 export default defineConfig({
   extends: [common],

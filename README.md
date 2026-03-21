@@ -15,7 +15,7 @@ Create an `oxlint.config.ts` file with the contents:
 
 ```ts
 import {defineConfig} from 'oxlint';
-import {all} from '@evanpurkhiser/oxc-config';
+import {all} from '@evanpurkhiser/oxc-config/oxlint';
 
 export default defineConfig({
   extends: all,
@@ -32,7 +32,7 @@ For example:
 
 ```ts
 import {defineConfig} from 'oxlint';
-import {common} from '@evanpurkhiser/oxc-config';
+import {common} from '@evanpurkhiser/oxc-config/oxlint';
 
 export default defineConfig({
   extends: [common],
@@ -47,3 +47,8 @@ import {oxfmt} from '@evanpurkhiser/oxc-config/oxfmt';
 
 export default defineConfig(oxfmt);
 ```
+
+This package exposes two primary modules:
+
+- `@evanpurkhiser/oxc-config/oxlint`
+- `@evanpurkhiser/oxc-config/oxfmt`

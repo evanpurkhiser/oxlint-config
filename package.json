@@ -7,9 +7,10 @@
   "author": "Evan Purkhiser",
   "repository": "https://github.com/evanpurkhiser/oxc-config",
   "type": "module",
-  "main": "src/index.mjs",
+  "main": "src/oxlint.mjs",
   "exports": {
-    ".": "./src/index.mjs",
+    ".": "./src/oxlint.mjs",
+    "./oxlint": "./src/oxlint.mjs",
     "./common": "./src/common.mjs",
     "./react": "./src/react.mjs",
     "./oxfmt": "./src/oxfmt.mjs"
