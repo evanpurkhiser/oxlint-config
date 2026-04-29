@@ -1,5 +1,14 @@
 const common = {
-  plugins: ['eslint', 'typescript', 'unicorn', 'oxc', 'import', 'react', 'promise', 'node'],
+  plugins: [
+    'eslint',
+    'typescript',
+    'unicorn',
+    'oxc',
+    'import',
+    'react',
+    'promise',
+    'node',
+  ],
 
   rules: {
     // Best practices
