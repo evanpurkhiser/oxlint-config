@@ -30,6 +30,19 @@ const common = {
     'prefer-template': ['warn'],
     'arrow-body-style': ['error', 'as-needed'],
 
+    // Correctness
+    'no-template-curly-in-string': ['error'],
+    'no-throw-literal': ['error'],
+    'default-case-last': ['error'],
+    'prefer-promise-reject-errors': ['error'],
+
+    // Style cleanup
+    'object-shorthand': ['warn'],
+    'no-useless-rename': ['warn'],
+    'no-unneeded-ternary': ['warn'],
+    'prefer-object-spread': ['warn'],
+    'prefer-object-has-own': ['warn'],
+
     // Disabled for TypeScript
     'no-unused-expressions': ['off'],
 
@@ -44,6 +57,19 @@ const common = {
     'typescript/no-useless-constructor': ['error'],
     'typescript/array-type': ['error', {default: 'array-simple'}],
     'typescript/consistent-type-imports': ['error'],
+    'typescript/consistent-type-definitions': ['error', 'interface'],
+    'typescript/no-import-type-side-effects': ['error'],
+    'typescript/no-non-null-asserted-optional-chain': ['error'],
+    'typescript/prefer-as-const': ['error'],
+
+    // Imports
+    'import/no-duplicates': ['error'],
+    'import/no-self-import': ['error'],
+
+    // Unicorn
+    'unicorn/prefer-node-protocol': ['error'],
+    'unicorn/prefer-string-slice': ['warn'],
+    'unicorn/no-useless-undefined': ['warn'],
   },
 };
 
