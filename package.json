@@ -29,8 +29,14 @@
   "peerDependencies": {
     "oxlint": ">=1.56.0"
   },
-  "volta": {
-    "node": "24.3.0"
-  },
-  "packageManager": "pnpm@10.15.1"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    }
+  }
 }
